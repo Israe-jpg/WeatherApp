@@ -1,8 +1,8 @@
-# 🌤️ WeatherApp
+#  WeatherApp
 
-A modern Python desktop weather application with a beautiful GUI that provides current weather and 4-day forecasts for any location worldwide.
+A modern Python desktop weather application with a GUI that provides current weather and 4-day forecasts for any location worldwide.
 
-## ✨ Features
+## Features
 
 - **Real-time Weather Data** - Current temperature, conditions, and weather icons
 - **4-Day Forecast** - Extended weather predictions with daily temperatures
@@ -36,14 +36,14 @@ A modern Python desktop weather application with a beautiful GUI that provides c
 - **Fes, Morocco** (34.0372°N, 4.9998°W)
 - Change location using the latitude/longitude inputs in the app
 
-## 🎯 How to Use
+## How to Use
 
 1. **View Current Weather** - Main display shows today's temperature and conditions
 2. **Check Forecast** - Click any day button to see that day's weather
 3. **Change Location** - Enter new latitude/longitude and click "Change location"
 4. **Theme** - App automatically switches to dark theme during night hours (7PM-6AM)
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **GUI Framework:** tkinter
 - **Weather API:** OpenWeatherMap 5-day forecast API
@@ -51,7 +51,7 @@ A modern Python desktop weather application with a beautiful GUI that provides c
 - **Image Handling:** PIL/Pillow
 - **Data Processing:** Python collections.Counter
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 WeatherApp/
@@ -67,7 +67,7 @@ WeatherApp/
     └── night.png
 ```
 
-## 🌡️ Weather Conditions
+## Weather Conditions
 
 The app categorizes weather into:
 
@@ -76,14 +76,14 @@ The app categorizes weather into:
 - **🌧️ Rainy** - Precipitation (rain, snow, storms)
 - **🌙 Night** - Dark theme with night icon
 
-## 🔧 Configuration
+## Configuration
 
 - **API Key:** OpenWeatherMap API key included
 - **Default Coordinates:** Fes, Morocco
 - **Theme Colors:** Light green (day) / Dark blue (night)
 - **Temperature Unit:** Celsius
 
-## 📱 Screenshots
+## Screenshots
 
 The app features a clean, minimalist design with:
 
@@ -94,4 +94,4 @@ The app features a clean, minimalist design with:
 
 ---
 
-**Built with ❤️ using Python & tkinter**
+**Built Python & tkinter**
